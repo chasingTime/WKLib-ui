@@ -1,0 +1,6 @@
+framework module WKLib_ui {
+  umbrella header "WKLib-ui-umbrella.h"
+
+  export *
+  module * { export * }
+}

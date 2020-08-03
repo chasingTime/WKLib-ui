@@ -1,0 +1,16 @@
+PODS:
+  - WKLib-ui (0.1.0)
+
+DEPENDENCIES:
+  - WKLib-ui (from `../`)
+
+EXTERNAL SOURCES:
+  WKLib-ui:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WKLib-ui: ae9693a8f629825d83c853b5b9d44dcc66180b3e
+
+PODFILE CHECKSUM: 4026a19fb3f25962add6a8db5eead77c1e273394
+
+COCOAPODS: 1.9.1

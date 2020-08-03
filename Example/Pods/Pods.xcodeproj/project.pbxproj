@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174CE73327F1E6DD2E5E164F1236E352 /* Pods-WKLib-ui_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FBC5F67B841C42A9743377302EEE9A /* Pods-WKLib-ui_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180F5E5C1416FF52C19870D049D54587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46DED572376C0CD188AC573FD7303732 /* WKLib-ui-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CD91085A427B482E4E2B5485BEA4B8 /* WKLib-ui-dummy.m */; };
+		4821B968AC31EED4219BE63493CFA8F5 /* Pods-WKLib-ui_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4353155E39B1A8D409E1B7D4B8440E /* Pods-WKLib-ui_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		483C7868D3FE905C24EFC50EAF6A5388 /* Pods-WKLib-ui_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA663F13A42822946F65D288288E2C1 /* Pods-WKLib-ui_Example-dummy.m */; };
+		7B62CCFD80B63EF40A8706559ABF98D4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EAB1D19B473897E69F1C74C555EF9 /* ReplaceMe.m */; };
+		9586F85B72604CA1DF9FE0408BDCD97D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9E1FEC42E55507521F6199B0F3A9477A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A57101BE7F2A768E9E2B4AF57087F991 /* Pods-WKLib-ui_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5B11461C60899D7B32730FE23E788 /* Pods-WKLib-ui_Tests-dummy.m */; };
+		D533514FE8412699ADC274FA13A2C5DA /* WKLib-ui-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AD2302E82FE21F37040E07B4E46681 /* WKLib-ui-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC216C065D77D04F3C446BAF4C4AEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F75E1AFBC0470D26F80214490167945;
+			remoteInfo = "Pods-WKLib-ui_Example";
+		};
+		DF73B4C3AE96A18B18E731D6A61B0D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B960FE425B69A6A7494677AA3C622E5;
+			remoteInfo = "WKLib-ui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0837B507532E65A6AA97A810E384ABB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DA663F13A42822946F65D288288E2C1 /* Pods-WKLib-ui_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKLib-ui_Example-dummy.m"; sourceTree = "<group>"; };
+		146226811019B5A71BCCC2F58F40685E /* Pods-WKLib-ui_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKLib-ui_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1CD477BCAC94CE4C9981806C1C5EBA83 /* Pods-WKLib-ui_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKLib-ui_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3221BF72961AEF1F470EFF4CD2BECE87 /* Pods_WKLib_ui_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKLib_ui_Tests.framework; path = "Pods-WKLib-ui_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		356030E174D7584571E2A527BA0C40B9 /* Pods-WKLib-ui_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKLib-ui_Example.release.xcconfig"; sourceTree = "<group>"; };
+		397078B14441A2FC304D9BFC9AF969CE /* Pods_WKLib_ui_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKLib_ui_Example.framework; path = "Pods-WKLib-ui_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA5B11461C60899D7B32730FE23E788 /* Pods-WKLib-ui_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKLib-ui_Tests-dummy.m"; sourceTree = "<group>"; };
+		3C5167E2F77A39E89A3361EE400A5F30 /* WKLib-ui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WKLib-ui.release.xcconfig"; sourceTree = "<group>"; };
+		411740497720EE8793385572ADD7ABC1 /* Pods-WKLib-ui_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKLib-ui_Example.modulemap"; sourceTree = "<group>"; };
+		496EAB1D19B473897E69F1C74C555EF9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = "WKLib-ui/Classes/ReplaceMe.m"; sourceTree = "<group>"; };
+		4BBA04613972C530F83A89CB23294944 /* Pods-WKLib-ui_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKLib-ui_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55894D8DF0D949D1AF9C7D0A3045C440 /* Pods-WKLib-ui_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKLib-ui_Example-Info.plist"; sourceTree = "<group>"; };
+		55C3282CDECABF5F1A291F7311B17D62 /* Pods-WKLib-ui_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKLib-ui_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57FBC5F67B841C42A9743377302EEE9A /* Pods-WKLib-ui_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKLib-ui_Example-umbrella.h"; sourceTree = "<group>"; };
+		6529734363D274C84E2328917D723369 /* WKLib_ui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKLib_ui.framework; path = "WKLib-ui.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4353155E39B1A8D409E1B7D4B8440E /* Pods-WKLib-ui_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKLib-ui_Tests-umbrella.h"; sourceTree = "<group>"; };
+		763EFF719386B2F8E328F1BA01E8012C /* Pods-WKLib-ui_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKLib-ui_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEF19A303C64715BD4542AD526A4666 /* Pods-WKLib-ui_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKLib-ui_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82D208CB0A93928D8994A80D341F1E57 /* WKLib-ui.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "WKLib-ui.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95EF2BCA7B35A6CD6C60672B6C4BF8AE /* Pods-WKLib-ui_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKLib-ui_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7CD91085A427B482E4E2B5485BEA4B8 /* WKLib-ui-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKLib-ui-dummy.m"; sourceTree = "<group>"; };
+		B0B673A2C2E72F4109D0D0CAB1D68BAE /* WKLib-ui-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKLib-ui-Info.plist"; sourceTree = "<group>"; };
+		BBD2D7CF5BD3BBEE9EC3D5940EC6D39E /* Pods-WKLib-ui_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKLib-ui_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD876C094828FD89318BEA4B1B333F9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BEE72858C54B16B995F687FC37D023F5 /* WKLib-ui.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "WKLib-ui.modulemap"; sourceTree = "<group>"; };
+		BFA132DE875995D43078207B1FC98DDC /* WKLib-ui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "WKLib-ui.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AD2302E82FE21F37040E07B4E46681 /* WKLib-ui-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKLib-ui-umbrella.h"; sourceTree = "<group>"; };
+		C7BE60FB6E8192CA3E2D8038BE40808B /* Pods-WKLib-ui_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKLib-ui_Tests.modulemap"; sourceTree = "<group>"; };
+		F0CBFB519DCD62B9A72E9DF75122DB25 /* WKLib-ui-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKLib-ui-prefix.pch"; sourceTree = "<group>"; };
+		FC6E6ECABFEF80EB08A1ECA27CB96B75 /* Pods-WKLib-ui_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKLib-ui_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BCCB8442A57D1B0A9AA79FA94955877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9586F85B72604CA1DF9FE0408BDCD97D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CEDDFBA111E14E41450583294592DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1FEC42E55507521F6199B0F3A9477A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0A746BA7499BE4AE897094FBF30C21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180F5E5C1416FF52C19870D049D54587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C30C92DDE344133EA35622213CECCF6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AADA6727DACF850D93DF41E601922B0 /* WKLib-ui */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		200DD5CE60ADE5CAC20C89CCB7E2A16A /* Pods-WKLib-ui_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BE60FB6E8192CA3E2D8038BE40808B /* Pods-WKLib-ui_Tests.modulemap */,
+				763EFF719386B2F8E328F1BA01E8012C /* Pods-WKLib-ui_Tests-acknowledgements.markdown */,
+				55C3282CDECABF5F1A291F7311B17D62 /* Pods-WKLib-ui_Tests-acknowledgements.plist */,
+				3BA5B11461C60899D7B32730FE23E788 /* Pods-WKLib-ui_Tests-dummy.m */,
+				FC6E6ECABFEF80EB08A1ECA27CB96B75 /* Pods-WKLib-ui_Tests-Info.plist */,
+				6F4353155E39B1A8D409E1B7D4B8440E /* Pods-WKLib-ui_Tests-umbrella.h */,
+				7CEF19A303C64715BD4542AD526A4666 /* Pods-WKLib-ui_Tests.debug.xcconfig */,
+				BBD2D7CF5BD3BBEE9EC3D5940EC6D39E /* Pods-WKLib-ui_Tests.release.xcconfig */,
+			);
+			name = "Pods-WKLib-ui_Tests";
+			path = "Target Support Files/Pods-WKLib-ui_Tests";
+			sourceTree = "<group>";
+		};
+		3CD920084473D11B8E8AE79D73E04505 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD876C094828FD89318BEA4B1B333F9B /* LICENSE */,
+				0837B507532E65A6AA97A810E384ABB0 /* README.md */,
+				82D208CB0A93928D8994A80D341F1E57 /* WKLib-ui.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		41945C34E9714D80625E567E26FE6DB9 /* Pods-WKLib-ui_Example */ = {
+			isa = PBXGroup;
+			children = (
+				411740497720EE8793385572ADD7ABC1 /* Pods-WKLib-ui_Example.modulemap */,
+				4BBA04613972C530F83A89CB23294944 /* Pods-WKLib-ui_Example-acknowledgements.markdown */,
+				1CD477BCAC94CE4C9981806C1C5EBA83 /* Pods-WKLib-ui_Example-acknowledgements.plist */,
+				0DA663F13A42822946F65D288288E2C1 /* Pods-WKLib-ui_Example-dummy.m */,
+				95EF2BCA7B35A6CD6C60672B6C4BF8AE /* Pods-WKLib-ui_Example-frameworks.sh */,
+				55894D8DF0D949D1AF9C7D0A3045C440 /* Pods-WKLib-ui_Example-Info.plist */,
+				57FBC5F67B841C42A9743377302EEE9A /* Pods-WKLib-ui_Example-umbrella.h */,
+				146226811019B5A71BCCC2F58F40685E /* Pods-WKLib-ui_Example.debug.xcconfig */,
+				356030E174D7584571E2A527BA0C40B9 /* Pods-WKLib-ui_Example.release.xcconfig */,
+			);
+			name = "Pods-WKLib-ui_Example";
+			path = "Target Support Files/Pods-WKLib-ui_Example";
+			sourceTree = "<group>";
+		};
+		5AADA6727DACF850D93DF41E601922B0 /* WKLib-ui */ = {
+			isa = PBXGroup;
+			children = (
+				496EAB1D19B473897E69F1C74C555EF9 /* ReplaceMe.m */,
+				3CD920084473D11B8E8AE79D73E04505 /* Pod */,
+				D3FEB659763CB21717C1D5D0970D5C23 /* Support Files */,
+			);
+			name = "WKLib-ui";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B75AAA88F33EE7B63204578B645F4DE3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41945C34E9714D80625E567E26FE6DB9 /* Pods-WKLib-ui_Example */,
+				200DD5CE60ADE5CAC20C89CCB7E2A16A /* Pods-WKLib-ui_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEB337F2E4216B38FA025ED846E03E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				397078B14441A2FC304D9BFC9AF969CE /* Pods_WKLib_ui_Example.framework */,
+				3221BF72961AEF1F470EFF4CD2BECE87 /* Pods_WKLib_ui_Tests.framework */,
+				6529734363D274C84E2328917D723369 /* WKLib_ui.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1C30C92DDE344133EA35622213CECCF6 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CEB337F2E4216B38FA025ED846E03E7D /* Products */,
+				B75AAA88F33EE7B63204578B645F4DE3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FEB659763CB21717C1D5D0970D5C23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE72858C54B16B995F687FC37D023F5 /* WKLib-ui.modulemap */,
+				A7CD91085A427B482E4E2B5485BEA4B8 /* WKLib-ui-dummy.m */,
+				B0B673A2C2E72F4109D0D0CAB1D68BAE /* WKLib-ui-Info.plist */,
+				F0CBFB519DCD62B9A72E9DF75122DB25 /* WKLib-ui-prefix.pch */,
+				C5AD2302E82FE21F37040E07B4E46681 /* WKLib-ui-umbrella.h */,
+				BFA132DE875995D43078207B1FC98DDC /* WKLib-ui.debug.xcconfig */,
+				3C5167E2F77A39E89A3361EE400A5F30 /* WKLib-ui.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKLib-ui";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		076F46C3D7B303DD8C81FB1E828F66FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4821B968AC31EED4219BE63493CFA8F5 /* Pods-WKLib-ui_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C93997DC0E2F2DB9EE5DB74B5F39F52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D533514FE8412699ADC274FA13A2C5DA /* WKLib-ui-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AB7428D803FFD20BD56C8CC7058532 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174CE73327F1E6DD2E5E164F1236E352 /* Pods-WKLib-ui_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B960FE425B69A6A7494677AA3C622E5 /* WKLib-ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5889079B3A3ECFB311EE7EE9787DB4B9 /* Build configuration list for PBXNativeTarget "WKLib-ui" */;
+			buildPhases = (
+				5C93997DC0E2F2DB9EE5DB74B5F39F52 /* Headers */,
+				3FB5F9D608EA75CBCF9C1A450E0C2A79 /* Sources */,
+				F0A746BA7499BE4AE897094FBF30C21A /* Frameworks */,
+				17FC3A930F28428D4861117C3D1EA354 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKLib-ui";
+			productName = "WKLib-ui";
+			productReference = 6529734363D274C84E2328917D723369 /* WKLib_ui.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F75E1AFBC0470D26F80214490167945 /* Pods-WKLib-ui_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFA0AA95AE47BA742D75058BAD900706 /* Build configuration list for PBXNativeTarget "Pods-WKLib-ui_Example" */;
+			buildPhases = (
+				67AB7428D803FFD20BD56C8CC7058532 /* Headers */,
+				29422647F3167A2AFC3589FE116D510A /* Sources */,
+				6BCCB8442A57D1B0A9AA79FA94955877 /* Frameworks */,
+				057D141DFC2FF63AF857CACF87FEB71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E951A1EF4E6A6157B1926F33A31296B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-WKLib-ui_Example";
+			productName = "Pods-WKLib-ui_Example";
+			productReference = 397078B14441A2FC304D9BFC9AF969CE /* Pods_WKLib_ui_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8CCEF2609C03CC0CC423189FDCEBA8A /* Pods-WKLib-ui_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8D9DDE3E2322811E498418EE690FD0 /* Build configuration list for PBXNativeTarget "Pods-WKLib-ui_Tests" */;
+			buildPhases = (
+				076F46C3D7B303DD8C81FB1E828F66FE /* Headers */,
+				FF2526E424B70E6D6238CA4A34AE98F2 /* Sources */,
+				96CEDDFBA111E14E41450583294592DF /* Frameworks */,
+				1701CA623ED534CF3555F838CFEC8BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E8405D3486ED858CDB66DD7D4AEB19C /* PBXTargetDependency */,
+			);
+			name = "Pods-WKLib-ui_Tests";
+			productName = "Pods-WKLib-ui_Tests";
+			productReference = 3221BF72961AEF1F470EFF4CD2BECE87 /* Pods_WKLib_ui_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CEB337F2E4216B38FA025ED846E03E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F75E1AFBC0470D26F80214490167945 /* Pods-WKLib-ui_Example */,
+				E8CCEF2609C03CC0CC423189FDCEBA8A /* Pods-WKLib-ui_Tests */,
+				5B960FE425B69A6A7494677AA3C622E5 /* WKLib-ui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057D141DFC2FF63AF857CACF87FEB71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1701CA623ED534CF3555F838CFEC8BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FC3A930F28428D4861117C3D1EA354 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29422647F3167A2AFC3589FE116D510A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483C7868D3FE905C24EFC50EAF6A5388 /* Pods-WKLib-ui_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB5F9D608EA75CBCF9C1A450E0C2A79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B62CCFD80B63EF40A8706559ABF98D4 /* ReplaceMe.m in Sources */,
+				46DED572376C0CD188AC573FD7303732 /* WKLib-ui-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2526E424B70E6D6238CA4A34AE98F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57101BE7F2A768E9E2B4AF57087F991 /* Pods-WKLib-ui_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E8405D3486ED858CDB66DD7D4AEB19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WKLib-ui_Example";
+			target = 8F75E1AFBC0470D26F80214490167945 /* Pods-WKLib-ui_Example */;
+			targetProxy = 3BC216C065D77D04F3C446BAF4C4AEB9 /* PBXContainerItemProxy */;
+		};
+		E951A1EF4E6A6157B1926F33A31296B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "WKLib-ui";
+			target = 5B960FE425B69A6A7494677AA3C622E5 /* WKLib-ui */;
+			targetProxy = DF73B4C3AE96A18B18E731D6A61B0D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0521C3C5AFE2EE6F0A61EFFB00C31C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA132DE875995D43078207B1FC98DDC /* WKLib-ui.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKLib-ui/WKLib-ui-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKLib-ui/WKLib-ui-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKLib-ui/WKLib-ui.modulemap";
+				PRODUCT_MODULE_NAME = WKLib_ui;
+				PRODUCT_NAME = WKLib_ui;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0693B8A0D94ADB7F6B4FBFC058CF613C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 146226811019B5A71BCCC2F58F40685E /* Pods-WKLib-ui_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKLib-ui_Example/Pods-WKLib-ui_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKLib-ui_Example/Pods-WKLib-ui_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43E1D6374BEA683025BD304B6186E5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C5167E2F77A39E89A3361EE400A5F30 /* WKLib-ui.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKLib-ui/WKLib-ui-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKLib-ui/WKLib-ui-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKLib-ui/WKLib-ui.modulemap";
+				PRODUCT_MODULE_NAME = WKLib_ui;
+				PRODUCT_NAME = WKLib_ui;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4CCDE6AF527776D016CFD34A1C56EABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356030E174D7584571E2A527BA0C40B9 /* Pods-WKLib-ui_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKLib-ui_Example/Pods-WKLib-ui_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKLib-ui_Example/Pods-WKLib-ui_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52741E6517A7540333F9B09AA59008CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBD2D7CF5BD3BBEE9EC3D5940EC6D39E /* Pods-WKLib-ui_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKLib-ui_Tests/Pods-WKLib-ui_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKLib-ui_Tests/Pods-WKLib-ui_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D012F2EFEA596501014751C42869DEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEF19A303C64715BD4542AD526A4666 /* Pods-WKLib-ui_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WKLib-ui_Tests/Pods-WKLib-ui_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WKLib-ui_Tests/Pods-WKLib-ui_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5889079B3A3ECFB311EE7EE9787DB4B9 /* Build configuration list for PBXNativeTarget "WKLib-ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0521C3C5AFE2EE6F0A61EFFB00C31C9D /* Debug */,
+				43E1D6374BEA683025BD304B6186E5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8D9DDE3E2322811E498418EE690FD0 /* Build configuration list for PBXNativeTarget "Pods-WKLib-ui_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D012F2EFEA596501014751C42869DEA3 /* Debug */,
+				52741E6517A7540333F9B09AA59008CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFA0AA95AE47BA742D75058BAD900706 /* Build configuration list for PBXNativeTarget "Pods-WKLib-ui_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0693B8A0D94ADB7F6B4FBFC058CF613C /* Debug */,
+				4CCDE6AF527776D016CFD34A1C56EABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
