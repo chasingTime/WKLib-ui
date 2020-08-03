@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WKLib-ui_Example' do
+  pod 'WKLib-ui', :path => '../'
+
+  target 'WKLib-ui_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
